@@ -96,7 +96,7 @@ export default class Main {
             ]
           }
         ];
-        definition["criteria"]["or"]["and"].push(criteriaData);
+        //definition["criteria"]["or"]["and"].push(criteriaData);
         definitions.push(definition);
         writeStream.write(JSON.stringify({"advisory": definitions}));
       });

@@ -1,0 +1,11 @@
+Get Redhat Patch Update.
+
+How to use::
+--------------
+
+1. npm install
+2. npm run-script build
+3. node ./dist/index.js
+
+Output::
+./redhat-update-output.json
